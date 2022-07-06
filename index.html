@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      rel="stylesheet"
+    />
     <title>Landing Burger</title>
   </head>
   <body>
     <header>
       <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbutton">
+          <i class="fa-solid fa-bars"></i>
+        </label>
         <img class="logo" src="img/logo.svg" alt="logo" />
         <ul class="nav-link">
           <li><a href="#">INICIO</a></li>
@@ -19,49 +27,52 @@
         </ul>
       </nav>
 
-      <div class="contenedor0">
-        <span class="nosotros">
-          Somos una hamburguesería que se toma en serio las hamburguesas, creada
-          y manejada por un verdadero fanático de las hamburguesas. Tanto el pan
-          y la carne como cada uno de los ingredientes que usamos, fue pensado y
-          diseñado para el rol que cumple en el producto final.
-        </span>
-        <img class="banner" src="img/banner.png" alt="banner" />
-      </div>
+      <section class="contenedor0">
+        <div class="contenedores">
+          <span class="nosotros">
+            Somos una hamburguesería que se toma en serio las hamburguesas,
+            creada y manejada por un verdadero fanático de las hamburguesas.
+            Tanto el pan y la carne como cada uno de los ingredientes que
+            usamos, fue pensado y diseñado para el rol que cumple en el producto
+            final.
+          </span>
 
-      <button>Hacer un pedido</button>
-      <button>Reserva tu mesa</button>
-      <span class="vision">
-        Nuestro objetivo principal es ofrecer un producto único y de alta
-        calidad a un precio competitivo.
-      </span>
+          <span class="vision">
+            Nuestro objetivo principal es ofrecer un producto único y de alta
+            calidad a un precio competitivo.
+          </span>
+
+          <div class="button">
+            <button>Hacer un pedido</button>
+            <button>Reserva tu mesa</button>
+          </div>
+        </div>
+        <img class="banner" src="img/banner.png" alt="banner" />
+      </section>
 
       <div class="contenedor">
         <img class="bg" src="img/burger.png" alt="banner" />
         <div class="encima">¿DÓNDE ENCONTRARNOS?</div>
-
-        <div class="centrado">
-          <h4>PALERMO</h4>
-        </div>
-
         <div>
-          <ul class="centrado2">
+          <div class="centrado">
+            <h4>PALERMO</h4>
+          </div>
+
+          <div class="centrado2">
             <li>Fitz Roy 1727</li>
             <li>Lunes a Domingos</li>
             <li>12:00 a 00:00</li>
-          </ul>
-        </div>
+          </div>
 
-        <div class="centrado3">
-          <h4>NORDELTA</h4>
-        </div>
+          <div class="centrado3">
+            <h4>NORDELTA</h4>
+          </div>
 
-        <div>
-          <ul class="centrado4">
+          <div class="centrado4">
             <li>Boulevard del Mirador 430</li>
             <li>Lunes a Domingos</li>
             <li>12:00 a 00:00</li>
-          </ul>
+          </div>
         </div>
       </div>
     </header>

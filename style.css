@@ -132,7 +132,7 @@ h4 {
 
 .centrado3 {
   position: absolute;
-  top: 38.6%;
+  top: 39.6%;
   color: #fff;
   font-size: 18px;
   height: 100px;
@@ -332,10 +332,10 @@ nav ul li a {
   }
 
   .nosotros {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   .vision {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   .contenedores {
     margin-right: -30px;
@@ -372,11 +372,11 @@ nav ul li a {
   }
 
   .nosotros {
-    font-size: 19px;
+    font-size: 24px;
     margin-left: 13vh;
   }
   .vision {
-    font-size: 19px;
+    font-size: 22px;
     margin-left: 11vh;
   }
   .contenedores {

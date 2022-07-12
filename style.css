@@ -359,7 +359,7 @@ nav ul li a {
   }
 }
 
-@media (max-width: 419px) {
+@media (max-width: 420px) {
   .logo {
     margin-right: -3rem;
   }
@@ -368,7 +368,7 @@ nav ul li a {
   }
   .banner {
     margin-right: -78px;
-    width: 143%;
+    width: 148%;
   }
 
   .nosotros {
@@ -386,8 +386,8 @@ nav ul li a {
     margin-left: 10vh;
   }
   .contenedor .encima {
-    font-size: 18px;
-    margin-left: 39px;
+    font-size: 17px;
+    margin-left: 35px;
     margin-top: 19px;
   }
 
@@ -410,10 +410,10 @@ nav ul li a {
     left: 74%;
   }
   .bg {
-    width: 182%;
+    width: 190%;
   }
 }
-@media (max-width: 370px) {
+@media (max-width: 350px) {
   .logo {
     margin-right: -5rem;
   }
@@ -422,7 +422,7 @@ nav ul li a {
   }
   .banner {
     margin-right: -86px;
-    width: 165%;
+    width: 171%;
   }
 
   .nosotros {
@@ -440,7 +440,7 @@ nav ul li a {
     margin-left: 5.3rem;
   }
   .contenedor .encima {
-    font-size: 19px;
+    font-size: 18px;
     margin-left: -17px;
   }
 
@@ -458,12 +458,12 @@ nav ul li a {
   }
   .centrado3 {
     left: 67%;
-    top: 6.9rem;
+    top: 7rem;
   }
   .centrado4 {
     left: 74%;
   }
   .bg {
-    width: 216%;
+    width: 221%;
   }
 }

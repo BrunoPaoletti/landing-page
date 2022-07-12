@@ -136,7 +136,7 @@ h4 {
   color: #fff;
   font-size: 18px;
   height: 100px;
-  left: 63%;
+  left: 60%;
 }
 
 .centrado2 {
@@ -386,8 +386,8 @@ nav ul li a {
     margin-left: 10vh;
   }
   .contenedor .encima {
-    font-size: 19px;
-    margin-left: 56px;
+    font-size: 18px;
+    margin-left: 39px;
     margin-top: 19px;
   }
 
@@ -412,63 +412,8 @@ nav ul li a {
   .bg {
     width: 182%;
   }
-
-  @media (max-width: 419px) {
-    .logo {
-      margin-right: -3rem;
-    }
-    #check:checked ~ ul {
-      width: 142%;
-    }
-    .banner {
-      margin-right: -78px;
-      width: 143%;
-    }
-
-    .nosotros {
-      font-size: 21px;
-      margin-left: 13vh;
-    }
-    .vision {
-      font-size: 19px;
-      margin-left: 11vh;
-    }
-    .contenedores {
-      margin-right: -74px;
-    }
-    .button {
-      margin-left: 10vh;
-    }
-    .contenedor .encima {
-      font-size: 17px;
-      margin-left: 49px;
-      margin-top: 19px;
-    }
-
-    li {
-      text-align: center;
-      font-size: 0.6rem;
-      padding-right: 1rem;
-    }
-    .centrado {
-      margin-top: 2.8vh;
-      margin-left: 12.2vh;
-    }
-    .centrado2 {
-      left: 27%;
-    }
-    .centrado3 {
-      left: 71%;
-    }
-    .centrado4 {
-      left: 74%;
-    }
-    .bg {
-      width: 182%;
-    }
-  }
 }
-@media (max-width: 320px) {
+@media (max-width: 370px) {
   .logo {
     margin-right: -5rem;
   }
@@ -495,8 +440,8 @@ nav ul li a {
     margin-left: 5.3rem;
   }
   .contenedor .encima {
-    font-size: 17x;
-    margin-left: -27px;
+    font-size: 19px;
+    margin-left: -17px;
   }
 
   li {

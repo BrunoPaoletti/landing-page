@@ -359,7 +359,7 @@ nav ul li a {
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 420px) {
   .logo {
     margin-right: -3rem;
   }
@@ -367,8 +367,8 @@ nav ul li a {
     width: 142%;
   }
   .banner {
-    margin-right: -88px;
-    width: 161%;
+    margin-right: -96px;
+    width: 150%;
   }
 
   .nosotros {
@@ -410,46 +410,40 @@ nav ul li a {
     left: 74%;
   }
   .bg {
-    width: 205%;
+    width: 190%;
+    margin-right: -1.5rem;
   }
 }
 
-@media (max-width: 310px) {
-  .banner {
-    margin-right: -87px;
-    width: 173%;
-  }
-}
-
-@media (max-width: 345px) {
+@media (max-width: 352px) {
   .logo {
-    margin-right: -5rem;
+    margin-right: -7rem;
   }
   #check:checked ~ ul {
     width: 158%;
   }
   .banner {
-    margin-right: -84px;
-    width: 173%;
+    margin-right: -120px;
+    width: 171%;
   }
 
   .nosotros {
-    font-size: 20px;
-    margin-left: 15vh;
+    font-size: 23px;
+    margin-left: 18vh;
   }
   .vision {
-    font-size: 21px;
-    margin-left: 16vh;
+    font-size: 23px;
+    margin-left: 17.5vh;
   }
   .contenedores {
     margin-right: -74px;
   }
   .button {
-    margin-left: 5.3rem;
+    margin-left: 7.3rem;
   }
   .contenedor .encima {
-    font-size: 18px;
-    margin-left: -17px;
+    font-size: 20px;
+    margin-left: -31px;
   }
 
   li {
@@ -466,12 +460,41 @@ nav ul li a {
   }
   .centrado3 {
     left: 67%;
-    top: 7rem;
+    top: 7.7rem;
   }
   .centrado4 {
     left: 74%;
   }
   .bg {
-    width: 223%;
+    width: 221%;
+  }
+}
+
+@media (max-width: 342px) {
+  .centrado3 {
+    left: 67%;
+    top: 7.9rem;
+  }
+  .bg {
+    width: 227%;
+  }
+  .button {
+    margin-left: 7.9rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .centrado3 {
+    left: 67%;
+    top: 7.3rem;
+  }
+  .banner {
+    width: 173%;
+  }
+  .bg {
+    width: 227%;
+  }
+  .button {
+    margin-left: 7.4rem;
   }
 }

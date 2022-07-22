@@ -102,7 +102,6 @@ button:hover {
 
 .encima {
   position: absolute;
-
   top: 10%;
   color: rgb(255, 217, 217);
   left: 24%;
@@ -169,7 +168,7 @@ h4 {
 .bg {
   background-position: center;
   height: 100%;
-  width: 105%;
+  width: 100%;
   margin: auto;
   filter: brightness(0.4);
 }
@@ -193,6 +192,168 @@ a:hover {
   margin-right: 40px;
   cursor: pointer;
   display: none;
+}
+.contfra {
+  display: flex;
+  flex-direction: column;
+}
+.textfranquicia {
+  margin: 2rem;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.franquiciasub {
+  margin: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  color: #000000;
+}
+.market {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartImg {
+  display: flex;
+  margin-top: 1rem;
+  width: auto;
+  height: 4rem;
+}
+
+.cartText {
+  width: 22vh;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cartSection {
+  margin: 1rem;
+  background-color: rgba(0, 0, 0, 0.706);
+  width: 12rem;
+  height: 17rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+.textcontact {
+  margin: 2rem;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+.contain {
+  margin-left: 6rem;
+  margin-top: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contain p {
+  margin: 2rem;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+input[type='Email'],
+input[type='text'] {
+  width: 20rem;
+  border-radius: 8px;
+  padding: 12px 20px;
+  margin: 16px 65px;
+  border: 2px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+.enviar :hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 3px;
+  cursor: pointer;
+}
+.enviar p {
+  height: 2rem;
+  width: 8rem;
+  background-color: #000000;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  padding: 9px;
+}
+.containContact {
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.maps {
+  margin-left: 47rem;
+  border: solid 0.3rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -24rem;
+}
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #252420;
+  color: white;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-evenly;
+  height: 15rem;
+}
+.contactanos {
+  display: flex;
+  flex-direction: column;
+}
+.contactanos p {
+  line-height: 2rem;
+}
+.contactanos a :hover {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa {
+  font-size: 1.5rem;
+}
+.escribinos {
+  margin-bottom: 1.2rem;
+  flex-direction: column;
+  display: flex;
+}
+.seguinos {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  margin-left: -6rem;
+  margin-top: -1rem;
 }
 
 /* id */
@@ -296,19 +457,19 @@ a:hover {
     position: fixed;
     width: 100%;
     background: #ffffff72;
-    top: 159px;
+    top: 9.9rem;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
   }
-}
-nav ul li {
-  margin: 20px 0;
-}
-nav ul li a {
-  font-size: 15px;
-}
 
+  nav ul li {
+    margin: 20px 0;
+  }
+  nav ul li a {
+    font-size: 15px;
+  }
+}
 @media (max-width: 720px) {
   .logo {
     margin-right: 0rem;
@@ -316,77 +477,83 @@ nav ul li a {
   .contenedor .encima {
     font-size: 30px;
   }
-  .contenedores {
-    margin-right: -3rem;
+
+  .container {
+    width: 55rem;
+  }
+  .nosotros {
+    margin-left: 9rem;
+    font-size: 24px;
+  }
+
+  .vision {
+    font-size: 25px;
+    margin-left: 9rem;
+  }
+  .button {
+    margin-left: 11rem;
+  }
+  .franquiciasub {
+    text-align: initial;
+    margin: 2rem;
+    margin-left: 1rem;
+  }
+  .textfranquicia {
+    margin: 1rem;
+    text-align: initial;
+  }
+  .textcontact {
+    text-align: inherit;
+    margin-left: 1rem;
+  }
+  .contain {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+  }
+  .containContact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+  }
+  .maps {
+    margin-left: 7.5rem;
+    margin-bottom: 5rem;
+    margin-top: 0rem;
+  }
+  footer {
+    width: 54.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 @media (max-width: 446px) {
   .logo {
     margin-right: 0rem;
   }
-  #check:checked ~ ul {
-    width: 126%;
-  }
-  .banner {
-    width: 131%;
-  }
-
-  .nosotros {
-    font-size: 1.3rem;
-  }
-  .vision {
-    font-size: 1.3rem;
-  }
-  .contenedores {
-    margin-right: -30px;
-  }
-  .contenedor .encima {
-    font-size: 22px;
-  }
-  li {
-    text-align: center;
-    font-size: 0.6rem;
-  }
-  .centrado {
-    margin-top: 3.5vh;
-    margin-left: 6.2vh;
-  }
-  .centrado2 {
-    left: 16%;
-  }
-  .bg {
-    width: 145%;
-  }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
   .logo {
-    margin-right: -3rem;
+    margin-right: -4.6rem;
   }
+
   #check:checked ~ ul {
     width: 142%;
   }
   .banner {
-    margin-right: -96px;
-    width: 150%;
+    margin-left: 14rem;
+    width: 40.4rem;
   }
 
-  .nosotros {
-    font-size: 24px;
-    margin-left: 13vh;
-  }
-  .vision {
-    font-size: 22px;
-    margin-left: 11vh;
-  }
   .contenedores {
     margin-right: -74px;
   }
   .button {
-    margin-left: 10vh;
+    margin-left: 9rem;
   }
   .contenedor .encima {
-    font-size: 17px;
+    font-size: 21px;
     margin-left: 35px;
     margin-top: 19px;
   }
@@ -405,36 +572,95 @@ nav ul li a {
   }
   .centrado3 {
     left: 71%;
+    margin-top: 0.2rem;
   }
   .centrado4 {
     left: 74%;
   }
   .bg {
-    width: 190%;
+    width: 51.9rem;
     margin-right: -1.5rem;
   }
-}
+  .container {
+    width: 40rem;
+  }
+  .franquiciasub {
+    text-align: initial;
+    margin: 2rem;
+    margin-left: 1rem;
+  }
+  .textfranquicia {
+    text-align: initial;
+    margin: 1rem;
+  }
+  .textcontact {
+    text-align: inherit;
+    margin-left: 1rem;
+  }
 
-@media (max-width: 352px) {
-  .logo {
-    margin-right: -7rem;
-  }
-  #check:checked ~ ul {
-    width: 158%;
-  }
-  .banner {
-    margin-right: -120px;
-    width: 171%;
+  .contain {
+    margin-left: 14rem;
   }
 
   .nosotros {
-    font-size: 23px;
-    margin-left: 18vh;
+    margin-left: 9rem;
+    font-size: 24px;
   }
+
   .vision {
-    font-size: 23px;
-    margin-left: 17.5vh;
+    font-size: 25px;
+    margin-left: 9rem;
   }
+  .button {
+    margin-left: 8.5rem;
+  }
+  .textfranquicia {
+    margin: 1rem;
+    text-align: initial;
+  }
+  .contain {
+    margin-left: 3.6rem;
+    margin-bottom: 3rem;
+  }
+  .containContact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+  }
+  .maps {
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+    margin-top: 0rem;
+  }
+  footer {
+    width: 40rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contactanos {
+    display: none;
+  }
+
+  .escribinos {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .logo {
+    margin-right: -7rem;
+  }
+  .bg {
+    width: 50.9rem;
+  }
+
+  .banner {
+    width: 39.4rem;
+  }
+  #check:checked ~ ul {
+    width: 34rem;
+  }
+
   .contenedores {
     margin-right: -74px;
   }
@@ -465,36 +691,208 @@ nav ul li a {
   .centrado4 {
     left: 74%;
   }
-  .bg {
-    width: 221%;
+
+  .container {
+    width: 38rem;
+  }
+  .franquiciasub {
+    text-align: initial;
+    margin: 2rem;
+    margin-left: 1rem;
+  }
+  .textcontact {
+    text-align: inherit;
+    margin-left: 1rem;
+  }
+  .contain {
+    margin-left: 14rem;
+  }
+
+  .nosotros {
+    margin-left: 9rem;
+    font-size: 24px;
+  }
+
+  .vision {
+    font-size: 25px;
+    margin-left: 9rem;
+  }
+  .button {
+    margin-left: 8.5rem;
+  }
+  .textfranquicia {
+    margin: 1rem;
+    text-align: initial;
+  }
+  .contain {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+  }
+  .containContact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  .maps {
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+    margin-top: 0rem;
+  }
+  footer {
+    width: 37.9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contactanos {
+    display: none;
+  }
+
+  .escribinos {
+    display: none;
   }
 }
-
 @media (max-width: 342px) {
   .centrado3 {
     left: 67%;
     top: 7.9rem;
   }
   .bg {
-    width: 227%;
+    width: 48.5rem;
+  }
+  .banner {
+    width: 39.5rem;
+  }
+  #check:checked ~ ul {
+    width: 35.7rem;
   }
   .button {
     margin-left: 7.9rem;
   }
-}
+  .container {
+    width: 35rem;
+  }
+  .franquiciasub {
+    margin: 2rem;
+    margin-left: 1rem;
+  }
+  .nosotros {
+    margin-left: 9rem;
+    font-size: 24px;
+  }
 
+  .vision {
+    font-size: 25px;
+    margin-left: 9rem;
+  }
+  .button {
+    margin-left: 8.5rem;
+  }
+  .textfranquicia {
+    margin: 1rem;
+    text-align: initial;
+  }
+  .contain {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+  }
+  .containContact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+  }
+  .maps {
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+    margin-top: 0rem;
+  }
+  footer {
+    width: 35.7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contactanos {
+    display: none;
+  }
+
+  .escribinos {
+    display: none;
+  }
+}
 @media (max-width: 320px) {
   .centrado3 {
     left: 67%;
     top: 7.3rem;
   }
   .banner {
-    width: 173%;
+    width: 37.5rem;
   }
+  #check:checked ~ ul {
+    width: 34rem;
+  }
+
   .bg {
-    width: 227%;
+    width: 49rem;
   }
   .button {
-    margin-left: 7.4rem;
+    margin-left: 8.2rem;
+  }
+  .container {
+    width: 34rem;
+  }
+  .nosotros {
+    margin-left: 9rem;
+    font-size: 24px;
+  }
+
+  .vision {
+    font-size: 25px;
+    margin-left: 9rem;
+  }
+  .centrado3 {
+    left: 67%;
+    top: 7.8rem;
+  }
+
+  .franquiciasub {
+    text-align: initial;
+    margin: 2rem;
+    margin-left: 1rem;
+  }
+  .textfranquicia {
+    margin: 1rem;
+    text-align: initial;
+  }
+  .textcontact {
+    text-align: inherit;
+    margin-left: 1rem;
+  }
+  .contain {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+  }
+  .containContact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+  }
+  .maps {
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+    margin-top: 0rem;
+  }
+  footer {
+    width: 35.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contactanos {
+    display: none;
+  }
+
+  .escribinos {
+    display: none;
   }
 }

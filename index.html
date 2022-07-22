@@ -9,6 +9,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <title>Landing Burger</title>
   </head>
   <body>
@@ -20,10 +24,10 @@
         </label>
         <img class="logo" src="img/logo.svg" alt="logo" />
         <ul class="nav-link">
-          <li><a href="#">INICIO</a></li>
-          <li><a href="#">TAKE AWAY</a></li>
-          <li><a href="#">FRANQUICIAS</a></li>
-          <li><a href="#">TRABAJÁ CON NOSOTROS</a></li>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="index.html">TAKE AWAY</a></li>
+          <li><a href="#textfranquicias">FRANQUICIAS</a></li>
+          <li><a href="#containContacts">CONTACTO</a></li>
         </ul>
       </nav>
 
@@ -76,6 +80,135 @@
           </div>
         </div>
       </div>
+      <div class="contfra">
+        <div class="textfranquicia" id="textfranquicias">
+          <p>VENTAJAS COMPETITIVAS DEL SISTEMA DE FRANQUICIAS.</p>
+        </div>
+        <div class="franquiciasub">
+          <p>
+            No te queremos convencer, sino informar que invertir en nuestra
+            Franquicia Big Pons, es una muy buena oportunidad de inversión. Te
+            enumeramos 3 puntos que en Big Pons consideramos importantes para
+            que tengas en cuenta al momento de invertir en nuestra franquicia.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <section class="cartSection">
+          <article class="market">
+            <img
+              class="cartImg"
+              src="https://bigpons.com.ar/bigpons/images/Group%20(81).png"
+            />
+            <div class="cartText">
+              <h2>#1</h2>
+              <h3>EL NEGOCIO</h3>
+              <p>
+                Se adquiere un negocio que ya ha sido probado y ha obtenido
+                resultados positivos, lo que disminuye el riesgo comercial.
+              </p>
+            </div>
+          </article>
+        </section>
+        <section class="cartSection">
+          <article class="market">
+            <img
+              class="cartImg"
+              src="https://bigpons.com.ar/bigpons/images/Group%20(81).png"
+            />
+            <div class="cartText">
+              <h2>#2</h2>
+              <h3>COMPRAS</h3>
+              <p>
+                Al pertencer a una franquicia Big Pons, se consiguen condiciones
+                de compra favorables y plazos de pago más amplios.
+              </p>
+            </div>
+          </article>
+        </section>
+        <section class="cartSection">
+          <article class="market">
+            <img
+              class="cartImg"
+              src="https://bigpons.com.ar/bigpons/images/Group%20(81).png"
+            />
+            <div class="cartText">
+              <h2>#3</h2>
+              <h3>MARKETING</h3>
+              <p>
+                Se comercializa una marca que cuenta con reconocimiento. Te
+                brindaremos apoyo con inversión en publicidad corporativa.
+              </p>
+            </div>
+          </article>
+        </section>
+      </div>
     </header>
+
+    <div class="containContact" id="containContacts">
+      <p class="textcontact">
+        Completá el siguiente formulario para tomar contacto con Big Pons.
+      </p>
+      <div class="contain">
+        <label for="Email"></label>
+        <input type="Email" placeholder="EMAIL" name="Email" />
+
+        <label for="name"></label>
+        <input type="text" placeholder="NOMBRE Y APELLIDO" name="text" />
+
+        <label for="wpp"></label>
+        <input type="text" placeholder="WHATSAPP" name="number" />
+
+        <a class="enviar" type="submit"><p>Enviar</p></a>
+      </div>
+
+      <div class="maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.797468740557!2d-58.43806958557548!3d-34.58399088046465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb56113efbf71%3A0x17612a1b85a32da1!2sBig%20Pons%20Palermo!5e0!3m2!1ses-419!2sar!4v1658446525885!5m2!1ses-419!2sar"
+          width="300"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <footer>
+      <img class="logo" src="img/logo_big_pons_blanco.svg" alt="logo" />
+
+      <div class="contactanos">
+        <i class="fa fa-envelope"></i>
+        <p>Escribinos a:</p>
+        <a href="mailto:info@bigpons.net" title="info@bigpons.net">
+          info@bigpons.net</a
+        >
+        <a href="mailto:franquicias@bigpons.net" title="franquicias@bigpons.net"
+          >franquicias@bigpons.net</a
+        >
+      </div>
+      <span class="escribinos">Seguinos en:</span>
+      <div class="seguinos">
+        <a
+          href="https://www.instagram.com/big.pons/"
+          target="_blank"
+          class="pt-1"
+          ><i class="fab fa-instagram"></i
+        ></a>
+
+        <a
+          href="https://www.facebook.com/Big-Pons-1602161363208791/"
+          target="_blank"
+          class="pt-1"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/results?search_query=big+pons"
+          target="_blank"
+          class="pt-1"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>

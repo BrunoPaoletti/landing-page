@@ -683,10 +683,11 @@ footer {
   }
   .centrado2 {
     left: 13%;
+    top: 10.4rem;
   }
   .centrado3 {
     left: 67%;
-    top: 7.7rem;
+    top: 8.1rem;
   }
   .centrado4 {
     left: 74%;
@@ -758,8 +759,9 @@ footer {
     top: 7.9rem;
   }
   .bg {
-    width: 48.5rem;
+    width: 51.1rem;
   }
+
   .banner {
     width: 39.5rem;
   }
@@ -788,6 +790,11 @@ footer {
   .button {
     margin-left: 8.5rem;
   }
+  .contenedor .encima {
+    font-size: 30px;
+    margin-left: -23px;
+  }
+
   .textfranquicia {
     margin: 1rem;
     text-align: initial;
@@ -821,10 +828,6 @@ footer {
   }
 }
 @media (max-width: 320px) {
-  .centrado3 {
-    left: 67%;
-    top: 7.3rem;
-  }
   .banner {
     width: 37.5rem;
   }
@@ -834,6 +837,10 @@ footer {
 
   .bg {
     width: 49rem;
+  }
+  .contenedor .encima {
+    font-size: 30px;
+    margin-left: -31px;
   }
   .button {
     margin-left: 8.2rem;
@@ -846,6 +853,93 @@ footer {
     font-size: 24px;
   }
 
+  .vision {
+    font-size: 25px;
+    margin-left: 9rem;
+  }
+  .centrado3 {
+    left: 67%;
+    top: 7.8rem;
+  }
+  .centrado2 {
+    left: 13%;
+    top: 10rem;
+  }
+  .franquiciasub {
+    text-align: initial;
+    margin: 2rem;
+    margin-left: 1rem;
+  }
+  .textfranquicia {
+    margin: 1rem;
+    text-align: initial;
+  }
+  .textcontact {
+    text-align: inherit;
+    margin-left: 1rem;
+  }
+  .contain {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+  }
+  .containContact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+  }
+  .maps {
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+    margin-top: 0rem;
+  }
+  footer {
+    width: 35.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contactanos {
+    display: none;
+  }
+
+  .escribinos {
+    display: none;
+  }
+}
+
+@media (max-width: 318px) {
+  li {
+    padding-right: 0.2rem;
+  }
+
+  .centrado3 {
+    left: 67%;
+    top: 7.3rem;
+  }
+  .banner {
+    width: 37.7rem;
+  }
+  #check:checked ~ ul {
+    width: 34rem;
+  }
+
+  .bg {
+    width: 49.3rem;
+  }
+  .button {
+    margin-left: 8.2rem;
+  }
+  .container {
+    width: 34rem;
+  }
+  .nosotros {
+    margin-left: 9rem;
+    font-size: 24px;
+  }
+  .contenedor .encima {
+    font-size: 30px;
+    margin-left: -1.4rem;
+  }
   .vision {
     font-size: 25px;
     margin-left: 9rem;

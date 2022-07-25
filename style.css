@@ -293,7 +293,6 @@ input[type='text'] {
   cursor: pointer;
 }
 .enviar p {
-  height: 2rem;
   width: 8rem;
   background-color: #000000;
   color: #fff;
@@ -539,7 +538,7 @@ footer {
   }
 
   #check:checked ~ ul {
-    width: 142%;
+    width: 40rem;
   }
   .banner {
     margin-left: 14rem;
@@ -658,7 +657,7 @@ footer {
     width: 39.4rem;
   }
   #check:checked ~ ul {
-    width: 34rem;
+    width: 38rem;
   }
 
   .contenedores {
@@ -766,7 +765,7 @@ footer {
     width: 39.5rem;
   }
   #check:checked ~ ul {
-    width: 35.7rem;
+    width: 37rem;
   }
   .button {
     margin-left: 7.9rem;
@@ -832,7 +831,7 @@ footer {
     width: 37.5rem;
   }
   #check:checked ~ ul {
-    width: 34rem;
+    width: 35.2rem;
   }
 
   .bg {
@@ -920,7 +919,7 @@ footer {
     width: 37.7rem;
   }
   #check:checked ~ ul {
-    width: 34rem;
+    width: 35.3rem;
   }
 
   .bg {
